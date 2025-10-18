@@ -39,7 +39,7 @@
   --text-Preset-4: 15px;
   --leading-Preset-4: 140%;
   --tracking-Preset-4: 0px;
-  --font-weight-Preset-4: 400;
+  --font-weight-Preset-4: 500;
   /* Text-preset-5 */
   --text-Preset-5: 13px;
   --leading-Preset-5: 160%;
@@ -164,6 +164,6 @@
     height: 250px;
     box-shadow: 0px 12px 14px rgba(0, 0, 0, 0.1);
     /* margin-top: 334px; */
-    padding: var(--spacing-Spacing-400);
+    padding: var(--spacing-Spacing-500);
   }
 }
