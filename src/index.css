@@ -137,7 +137,7 @@
   }
 
   .Card-specs {
-    width: 350px;
+    width: 317px;
     height: 250px;
     box-shadow: 0px 12px 14px rgba(0, 0, 0, 0.1);
     /* margin-top: 334px; */
@@ -156,14 +156,42 @@
     margin: 0 auto;
     /* background-color: red; */
   }
+
+  .Header-1 {
+    font-size: var(--text-Preset-2);
+    letter-spacing: var(--tracking-Preset-2);
+    font-weight: var(--font-weight-Preset-2);
+    line-height: var(--leading-Preset-2);
+  }
+  .Header-2 {
+    font-size: var(--text-Preset-1);
+    letter-spacing: var(--tracking-Preset-1);
+    font-weight: var(--font-weight-Preset-1);
+    line-height: var(--leading-Preset-1);
+  }
 }
 
 @media (min-width: 48rem) {
   .Card-specs {
-    width: 317px;
+    width: 350px;
     height: 250px;
     box-shadow: 0px 12px 14px rgba(0, 0, 0, 0.1);
     /* margin-top: 334px; */
     padding: var(--spacing-Spacing-500);
+  }
+}
+
+@media (max-width: 28.125rem) {
+  .Header-1 {
+    font-size: var(--text-Preset-2-Mobile);
+    letter-spacing: var(--tracking-Preset-2-Mobile);
+    font-weight: var(--font-weight-Preset-2-Mobile);
+    line-height: var(--leading-Preset-2-Mobile);
+  }
+  .Header-2 {
+    font-size: var(--text-Preset-1-Mobile);
+    letter-spacing: var(--tracking-Preset-1-Mobile);
+    font-weight: var(--font-weight-Preset-1-Mobile);
+    line-height: var(--leading-Preset-1-Mobile);
   }
 }
