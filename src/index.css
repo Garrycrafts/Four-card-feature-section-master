@@ -12,63 +12,63 @@
   --color-Orange: #fcae4a;
 
   /* Break points */
-  --breakpoint-md: 768px;
-  --breakpoint-sm: 450px;
-  --breakpoint-lg: 1440px;
+  --breakpoint-md: 48rem;
+  --breakpoint-sm: 28.125rem;
+  --breakpoint-lg: 90rem;
 
   /* Text */
   --default-font-family: "Poppins";
 
   /* Text-preset-1 */
-  --text-Preset-1: 36px;
+  --text-Preset-1: 2.25rem;
   --leading-Preset-1: 140%;
-  --tracking-Preset-1: -0.25px;
+  --tracking-Preset-1: -0.015625rem;
   --font-weight-Preset-1: 600;
 
   /* Text-preset-2 */
-  --text-Preset-2: 36px;
+  --text-Preset-2: 2.25rem;
   --leading-Preset-2: 140%;
-  --tracking-Preset-2: -0.25px;
+  --tracking-Preset-2: -0.015625rem;
   --font-Preset-2: 200;
   /* Text-preset-3 */
-  --text-Preset-3: 20px;
+  --text-Preset-3: 1.25rem;
   --leading-Preset-3: 135%;
-  --tracking-Preset-3: 0px;
+  --tracking-Preset-3: 0rem;
   --font-weight-Preset-3: 600;
   /* Text-preset-4 */
-  --text-Preset-4: 15px;
+  --text-Preset-4: 0.9375rem;
   --leading-Preset-4: 140%;
-  --tracking-Preset-4: 0px;
+  --tracking-Preset-4: 0rem;
   --font-weight-Preset-4: 400;
   /* Text-preset-5 */
-  --text-Preset-5: 13px;
+  --text-Preset-5: 0.8125rem;
   --leading-Preset-5: 160%;
-  --tracking-Preset-5: 0px;
+  --tracking-Preset-5: 0rem;
   --font-weight-Preset-5: 400;
   /* Spacing */
-  --spacing-Spacing-100: 8px;
-  --spacing-Spacing-200: 16px;
-  --spacing-Spacing-300: 24px;
-  --spacing-Spacing-400: 32px;
-  --spacing-Spacing-500: 40px;
+  --spacing-Spacing-100: 0.5rem;
+  --spacing-Spacing-200: 1rem;
+  --spacing-Spacing-300: 1.5rem;
+  --spacing-Spacing-400: 2rem;
+  --spacing-Spacing-500: 2.5rem;
 
   /* Mobile Text */
   /* Text-preset-4-Mobile */
-  --text-Preset-4-Mobile: 15px;
+  --text-Preset-4-Mobile: 0.9375rem;
   --leading-Preset-4-Mobile: 140%;
-  --tracking-Preset-4-Mobile: 0px;
+  --tracking-Preset-4-Mobile: 0rem;
   --font-weight-Preset-4-Mobile: 400;
 
   /* Text-preset-1-Mobile */
-  --text-Preset-1-Mobile: 24px;
+  --text-Preset-1-Mobile: 1.5rem;
   --leading-Preset-1-Mobile: 140%;
-  --tracking-Preset-1-Mobile: 0px;
+  --tracking-Preset-1-Mobile: 0rem;
   --font-weight-Preset-1-Mobile: 400;
 
   /* Text-preset-2-Mobile */
-  --text-Preset-2-Mobile: 24px;
+  --text-Preset-2-Mobile: 1.5rem;
   --leading-Preset-2-Mobile: 140%;
-  --tracking-Preset-2-Mobile: 0px;
+  --tracking-Preset-2-Mobile: 0rem;
   --font-weight-Preset-2-Mobile: 400;
 }
 
@@ -137,22 +137,22 @@
   }
 
   .Card-specs {
-    width: 317px;
-    height: 250px;
-    box-shadow: 0px 12px 14px rgba(0, 0, 0, 0.1);
-    /* margin-top: 334px; */
+    width: 19.8125rem;
+    height: 15.625rem;
+    box-shadow: 0 0.75rem 0.875rem rgba(0, 0, 0, 0.1);
+    /* margin-top: 20.875rem; */
     padding: var(--spacing-Spacing-400);
   }
 
   .top-color {
-    border-top: 4px solid;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top: 0.25rem solid;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
   }
 
   .background {
-    max-width: 314px;
-    height: 1405px;
+    max-width: 19.625rem;
+    height: 87.8125rem;
     margin: 0 auto;
     /* background-color: red; */
   }
@@ -173,10 +173,10 @@
 
 @media (min-width: 48rem) {
   .Card-specs {
-    width: 350px;
-    height: 250px;
-    box-shadow: 0px 12px 14px rgba(0, 0, 0, 0.1);
-    /* margin-top: 334px; */
+    width: 21.875rem;
+    height: 15.625rem;
+    box-shadow: 0 0.75rem 0.875rem rgba(0, 0, 0, 0.1);
+    /* margin-top: 20.875rem; */
     padding: var(--spacing-Spacing-500);
   }
 }
